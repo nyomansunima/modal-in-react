@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Modal In React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="public/images/nature-background.jpg">
 
-## Available Scripts
+<br/>
+<br/>
 
-In the project directory, you can run:
+### Background
 
-### `npm start`
+Create modal in react with the best way example. Contains 3 different type of modal that will use in your application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Modal using Manual
+- Modal with State Manager
+- Modal with React Context
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can easyly create the modal using this approach in your react app like NextJs, Solid, Remix or other
 
-### `npm test`
+<br/>
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Preview
 
-### `npm run build`
+Please see the preview exaple here [preview](https://modal-in-react.vercel.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br/>
+<br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Stacks
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+there's some stack use in this axample
+like:
 
-### `npm run eject`
+1.  React
+2.  Zustand (State manager)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br/>
+<br/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Get Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To start this project please follow the main step to produce:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the project in your local repository
 
-## Learn More
+```bash
+  git clone git@github.com:nyomansunima/modal-in-react.git modal-in-react
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install all deps in this projects
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```node
+  npm i --silent --legacy-peer-deps
+```
 
-### Code Splitting
+3. Start the application and happy dev :)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```node
+  npm run start
+```
